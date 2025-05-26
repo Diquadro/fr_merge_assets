@@ -30,7 +30,7 @@ This repository demonstrates a feature request for **automatic bundling of CSS a
 ```html
 <!-- Expected: Single bundled files per page -->
 <link href="css/index.bundle.########.css" rel="stylesheet" />
-<script src="js/index.bundle.########.js" defer></script>
+<script src="js/index.bundle.########.js"></script>
 ```
 
 ## Project Structure
