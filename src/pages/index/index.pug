@@ -1,0 +1,10 @@
+extends @src/layouts/base/base.pug
+
+block content
+  h1 Hello World!
+  include @src/partials/p1/p1.pug
+  include @src/partials/p2/p2.pug
+  include @src/partials/p3/p3.pug
+  
+  script(src="@src/pages/index/index.ts")
+  link(rel="stylesheet" href="@src/pages/index/index.scss")
