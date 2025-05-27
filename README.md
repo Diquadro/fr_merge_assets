@@ -68,8 +68,7 @@ index.pug (entry point)
 ## Test Files
 
 - **`build/`** - Current plugin output (separate files)
-- **`expected/`** - Desired bundled output  
-- **`dist/`** - Different project for comparison
+- **`expected/`** - Desired bundled output  n
 - **`webpack.config.js`** - Simple, standard configuration
 
 ## Use Case
